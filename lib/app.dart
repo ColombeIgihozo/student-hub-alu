@@ -9,8 +9,10 @@ import 'screens/splash_screen.dart';
 import 'state/app_state.dart';
 import 'theme/app_theme.dart';
 
+
 class AluConnectApp extends StatelessWidget {
   const AluConnectApp({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +29,9 @@ class AluConnectApp extends StatelessWidget {
             systemNavigationBarColor: AppColors.bg,
             systemNavigationBarIconBrightness: Brightness.light,
           ));
+          
           return child ?? const SizedBox.shrink();
+
         },
         home: const _RootRouter(),
       ),
