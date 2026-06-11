@@ -58,6 +58,7 @@ class AppTabBar extends StatelessWidget {
   }
 }
 
+
 class _TabItem extends StatelessWidget {
   const _TabItem({
     required this.icon,
@@ -72,6 +73,7 @@ class _TabItem extends StatelessWidget {
   final bool active;
   final VoidCallback onTap;
   final bool showDot;
+
 
   @override
   Widget build(BuildContext context) {
