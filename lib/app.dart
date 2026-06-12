@@ -38,7 +38,7 @@ class AluConnectApp extends StatelessWidget {
     );
   }
 }
-
+// stateless widget
 class _RootRouter extends StatelessWidget {
   const _RootRouter();
 
